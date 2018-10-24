@@ -1,0 +1,92 @@
+.my-nav {
+  background-color: #deeff5;
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav li:hover {
+  background-color: yellow;
+}
+
+.navbar-default .navbar-nav .open a:focus {
+  background-color: red;
+}
+
+#logo {
+  margin: 5px;
+  width: 30px;
+}
+
+.ih-text {
+  float: none;
+}
+
+.my-jumbo {
+  background-image:url('../images/jumbobg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto; background-position: center center;
+  /* Image Credit: Steele Rutherford from unsplash.com */
+}
+
+.my-jumbo h1 {
+  color: white;
+}
+
+.thumbnailimg {
+  width: 300px;
+  max-width:500px;
+}
+
+.my-carousel {
+  background-color: steelblue;
+}
+
+.my-img {
+  margin-bottom: 2%;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+}
+
+.my-form {
+  padding: 5%;
+}
+
+.form-inline .my-input {
+/* vw is view width. */
+  width: 30vw;
+}
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
